@@ -1,0 +1,127 @@
+
+<! -- Programming from A-Z Assignment 1: "Constrained" Writing / "Algorithmic" Writing
+Soojin Lee
+10 Sep 2021 - 12 Sep 2021 
+Title: Rewrite English to Korean Using Numbers
+Description: Using numbers and patterns, I have converted English Text to Korean Text. -->
+
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+	<head>
+	    <title> "Constrained" Writing / "Algorithmic" Writing </title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+
+	</head>
+
+<body>
+
+ 		<h1>
+ 			Convert English to Korean Using Numbers
+ 		</h1>
+
+
+<! -- Container 1 Exemplary Text -->
+
+ 	<div id= "container1"> 
+
+ 			<p>  Text: A Social History of the Media From Gutenberg to the Internet </p>
+
+ 			<img src="images/text.jpg">
+
+ 	</div>
+
+ <! -- Container 2 Convert English to Numbers -->
+
+
+ 	<div id ="container2">
+
+     	<h3>
+
+     	Step 1 : Convert English Text to Numbers
+
+     	</h3>
+
+     	<ol class="c">
+ 		 <li>Convert English Text to numbers by counting numbers of letters in each word and replace them with numbers </li>
+ 		 <li>Do not convert punctuations to numbers, nor count them as letters </li>
+ 		 <li>If there is an apostrophe, count the number of letters before and after the apostrophe separately; for example, the word <b>  <span style="color: blue"> people's </span></b> would be <b> <span style="color: blue"> 5 ' 1 </span></b></li>
+ 		 <li>List the numbers and punctuations in order, and add a space between them</li>
+		</ol>
+
+		<br><br><br>
+     		
+		<p> DEMO </p>
+
+				<img src="images/number.jpg">
+
+			<div class ="hover">
+					<br><br><br> <br>
+
+			<p style="font-size:20px; font-weight: bold; border-style: solid; margin-right:150pt; margin-left:150pt;"> Hover to View Converted Numbers </p>
+			</div>
+
+
+		<div class ="hide">
+				<img src="images/numerified.jpg">
+
+		</div>
+	
+	    </div>
+
+ <! -- Container 3 Korean Consonants and Vowels -->
+
+	   	<div id ="container3">
+
+	   			<h3> Korean Consonants in Alphabetical Order </h3>
+	   			<img src="images/consonants.jpg">
+
+	   			<h3> Korean Vowels in Alphabetical Order </h3>
+	   			<img src="images/vowels.jpg">
+			 
+		</div>
+
+ <! -- Container 4 Convert Numbers to Korean Text -->
+
+	 <div id ="container4">
+
+		<h3>
+
+     	Step 2 : Convert Numbers to Korean Text
+
+     	</h3>
+
+     	 <ol class="c">
+ 		 <li>Each number is converted to a consonant or a vowel</li>
+ 		 <li>Replace the numbers to Consonants or Vowels of the nth number in alphabetical order </li>
+ 		 <li>Always start with Consonants and alternate between consonants and vowels until it reaches punctuation</li>
+ 		 <li>After a punctuation, start with consonants again</li>
+ 		 <li>For apostrophe, the adjacent consonant becomes double consonant and erase the apostrophe</li>
+ 		 <li>Add a space after punctuations</li>
+		</ol>
+
+	</div>
+
+ 	
+ 	<div id ="container5">
+     	
+		<h3> Number Code </h3>
+
+		<img src="images/numerified.jpg">
+
+		<br><br>
+
+		<p> Red Numbers are converted to Consonants, Blue Numbers are converted to Vowels </p>
+
+		<br><br>
+
+		<h3> Numbers to Korean </h3>
+		<img src="images/korean.jpg">
+
+ 	</div>
+
+</body>
+
+</html>
