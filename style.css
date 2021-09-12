@@ -1,0 +1,196 @@
+
+/* Title */
+
+h1 {
+ text-align: center;
+ padding-top: 30pt;
+}
+
+
+/* Container 1 */
+
+#container1 {
+	display: fixed;
+	margin-top: 20pt;
+	width: 40%;
+	height: 550pt;
+	float: left;
+	margin-left: 2.5%;
+	text-align: center;
+
+}
+
+#container1 p{
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+
+#container1 img {
+	width: 80%;
+	margin-left: auto;
+    margin-right: auto;
+	border: solid black;
+}
+
+
+/* Container 2 */
+
+
+#container2 {
+	display: fixed;
+	height: 550pt;
+	margin-right: 2.5%;
+	margin-bottom: 20pt;
+	width: 55%;
+	float: left;
+
+}
+
+#container2 h3{
+	transform: translate(0px, 60px);
+	text-align: center;
+	font-size: 25px;
+  
+
+}
+
+#container2 p{
+	text-align: center;
+	font-size: 20px;
+  
+}
+
+.magic{
+	text-align: center;
+	font-size: 50px;
+  
+}
+
+
+#container2 img {
+	transform: translate(0px, -10px);
+	width: 80%;
+	margin-left: 10%;
+}
+
+.hover {
+	transform: translate(0px, -60px);
+
+}
+
+.hide {
+	display: none;
+	transform: translate(0px, -60px);
+
+}
+
+.hover:hover + .hide {
+  display: block;
+}
+
+ol.c {
+	padding-top: 10pt;
+	padding-bottom: 10pt;
+	padding-right: 10pt;
+	padding-left: -10pt;
+
+	transform: translate(0, 50px);
+	background-color: #FFE4B5;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+li{
+	margin: 10px 0;
+	font-size: 13pt;
+}
+
+/* Container 3 */
+
+#container3 {
+	display: fixed;
+	float: left;
+	height: 400pt;
+	margin-left: 2.5%;
+	width: 45%;
+}
+
+
+#container3 h3{
+	text-align: center;
+	margin-top: 55pt;
+	font-size: 17px;
+  
+
+}
+
+
+#container3 img {
+	width: 90%;
+	margin-left: 20pt;
+}
+
+
+/* Container 4 */
+
+#container4 {
+	display: fixed;
+	height: 400pt;
+	width: 45%;
+	margin-left: 2.5%;
+    float: left;
+
+}
+
+#container4 img {
+	padding-top: 50pt;
+	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#container4 h3{
+	transform: translate(0px, 40px);
+	text-align: center;
+	font-size: 25px;
+}
+
+
+
+/* Container 5 */
+
+#container5 {
+	display: fixed;
+	transform: translate(0px, -50pt);
+	margin-left: 10%;
+	width: 80%;
+	float: left;
+	text-align: center;
+	margin-bottom: 30pt;
+
+}
+
+#container5 h3{
+	font-weight: bold;
+	font-size: 22px;
+  
+}
+
+#container5 p{
+	font-size: 20px;
+	outline-style: solid;
+	outline-width: 0.5pt;
+	padding: 5pt;
+	margin-left: 10%;
+	margin-right: 10%;
+
+  
+}
+
+
+
+#container5 img {
+	width: 70%;
+}
+
